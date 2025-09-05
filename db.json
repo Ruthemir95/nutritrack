@@ -1,0 +1,3203 @@
+{
+  "foods": [
+    {
+      "id": "1",
+      "name": "Petto di Pollo",
+      "brand": "BioFresh",
+      "category": "Proteine",
+      "per100g": {
+        "kcal": 165,
+        "protein": 31,
+        "carbs": 0,
+        "fats": 3.6,
+        "fiber": 0,
+        "sodium": 74,
+        "potassium": 256,
+        "calcium": 15,
+        "iron": 1,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "barcode": "8001234567890",
+      "tags": [
+        "proteine",
+        "low-carb",
+        "bio"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Riso Integrale",
+      "brand": "NaturaBio",
+      "category": "Carboidrati",
+      "per100g": {
+        "kcal": 111,
+        "protein": 2.6,
+        "carbs": 23,
+        "fats": 0.9,
+        "fiber": 1.8,
+        "sodium": 5,
+        "potassium": 43,
+        "calcium": 10,
+        "iron": 0.4,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "barcode": "8001234567891",
+      "tags": [
+        "carboidrati",
+        "integrale",
+        "fibra"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Salmone Atlantico",
+      "brand": "OceanFresh",
+      "category": "Pesce",
+      "per100g": {
+        "kcal": 208,
+        "protein": 25,
+        "carbs": 0,
+        "fats": 12,
+        "fiber": 0,
+        "sodium": 59,
+        "potassium": 363,
+        "calcium": 9,
+        "iron": 0.3,
+        "vitaminC": 0,
+        "vitaminD": 11.1
+      },
+      "barcode": "8001234567892",
+      "tags": [
+        "omega3",
+        "proteine",
+        "pesce"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Spinaci",
+      "brand": "VerdureBio",
+      "category": "Verdure",
+      "per100g": {
+        "kcal": 23,
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fats": 0.4,
+        "fiber": 2.2,
+        "sodium": 79,
+        "potassium": 558,
+        "calcium": 99,
+        "iron": 2.7,
+        "vitaminC": 28.1,
+        "vitaminD": 0
+      },
+      "barcode": "8001234567893",
+      "tags": [
+        "verdure",
+        "ferro",
+        "vitaminaC"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Uova Intere",
+      "brand": "BioFarm",
+      "category": "Proteine",
+      "per100g": {
+        "kcal": 155,
+        "protein": 13,
+        "carbs": 1.1,
+        "fats": 11,
+        "fiber": 0,
+        "sodium": 124,
+        "potassium": 138,
+        "calcium": 56,
+        "iron": 1.8,
+        "vitaminC": 0,
+        "vitaminD": 2
+      },
+      "barcode": "8001234567894",
+      "tags": [
+        "proteine",
+        "colesterolo",
+        "bio"
+      ]
+    },
+    {
+      "id": "3ebb",
+      "name": "20 g Parmareggio Snack - Parmareggio",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "c286",
+      "name": "Ananas",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "ebae",
+      "name": "Arancia",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "224a",
+      "name": "Barretta Gran Cereale nocciole e cioccolato fondente",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "a6fe",
+      "name": "Barretta ai frutti rossi - Kellogg's",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "48a2",
+      "name": "Barretta ai frutti rossi -kellogg's",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "b3c1",
+      "name": "biscotti",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 391,
+        "protein": 7,
+        "carbs": 58.5,
+        "fats": 14.5,
+        "fiber": 1.4,
+        "sodium": 190,
+        "potassium": 84,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "7e8a",
+      "name": "Cereali Integrali",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "5c5c",
+      "name": "Maiale Arista",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "2b9c",
+      "name": "Maiale bistecca",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "7e04",
+      "name": "Mandorle dolci o Noci secche",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "95f0",
+      "name": "Mela",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "6d43",
+      "name": "Melanzane",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "9a39",
+      "name": "Minestone",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "a410",
+      "name": "minestrone",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 53,
+        "protein": 2.1,
+        "carbs": 8.6,
+        "fats": 1.2,
+        "fiber": 2.4,
+        "sodium": 288,
+        "potassium": 255,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "0128",
+      "name": "mirtilli",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 57,
+        "protein": 0.7,
+        "carbs": 14.5,
+        "fats": 0.3,
+        "fiber": 2.4,
+        "sodium": 1,
+        "potassium": 77,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "617d",
+      "name": "mozzarella",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 300,
+        "protein": 22.2,
+        "carbs": 2.2,
+        "fats": 22.4,
+        "fiber": 0,
+        "sodium": 627,
+        "potassium": 76,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "e328",
+      "name": "nutella",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 541,
+        "protein": 5.4,
+        "carbs": 62.2,
+        "fats": 29.7,
+        "fiber": 5.4,
+        "sodium": 41,
+        "potassium": 407,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "edfa",
+      "name": "nutella",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 541,
+        "protein": 5.4,
+        "carbs": 62.2,
+        "fats": 29.7,
+        "fiber": 5.4,
+        "sodium": 41,
+        "potassium": 407,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "9c11",
+      "name": "Olio extra vergine Oliva",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "fc28",
+      "name": "Olio extra vergine di oliva",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "0404",
+      "name": "Pane integrale",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "3820",
+      "name": "Parmareggio Snack - Parmareggio",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "4ebf",
+      "name": "parmigiano reggiano",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 420,
+        "protein": 28.4,
+        "carbs": 13.9,
+        "fats": 27.8,
+        "fiber": 0,
+        "sodium": 1804,
+        "potassium": 180,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "1cbc",
+      "name": "parmigiano reggiano",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 420,
+        "protein": 28.4,
+        "carbs": 13.9,
+        "fats": 27.8,
+        "fiber": 0,
+        "sodium": 1804,
+        "potassium": 180,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "7e3e",
+      "name": "pasta",
+      "brand": null,
+      "category": "Carboidrati",
+      "per100g": {
+        "kcal": 158,
+        "protein": 5.8,
+        "carbs": 30.9,
+        "fats": 0.9,
+        "fiber": 1.8,
+        "sodium": 1,
+        "potassium": 44,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "cdd3",
+      "name": "Patate",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "8586",
+      "name": "Peperoni",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "7f78",
+      "name": "Pesce Spada affumicato",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "1c19",
+      "name": "pesto",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 418,
+        "protein": 9.8,
+        "carbs": 10.1,
+        "fats": 37.6,
+        "fiber": 1.8,
+        "sodium": 603,
+        "potassium": 560,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "6198",
+      "name": "pollo",
+      "brand": null,
+      "category": "Proteine",
+      "per100g": {
+        "kcal": 220,
+        "protein": 24,
+        "carbs": 0.1,
+        "fats": 13.1,
+        "fiber": 0,
+        "sodium": 71,
+        "potassium": 204,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "475b",
+      "name": "pollo",
+      "brand": null,
+      "category": "Proteine",
+      "per100g": {
+        "kcal": 220,
+        "protein": 24,
+        "carbs": 0.1,
+        "fats": 13.1,
+        "fiber": 0,
+        "sodium": 71,
+        "potassium": 204,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "1c07",
+      "name": "Piselli",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "4afe",
+      "name": "Pomodori ciliegino",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "7dc0",
+      "name": "Pomodoro",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "6c30",
+      "name": "prosciutto",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 195,
+        "protein": 27.8,
+        "carbs": 0.3,
+        "fats": 8.3,
+        "fiber": 0,
+        "sodium": 2695,
+        "potassium": 510,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "3efd",
+      "name": "Prugne",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "4df8",
+      "name": "ricotta",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 138,
+        "protein": 11.4,
+        "carbs": 5.1,
+        "fats": 7.9,
+        "fiber": 0,
+        "sodium": 99,
+        "potassium": 125,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "2f70",
+      "name": "basmati",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 130,
+        "protein": 2.7,
+        "carbs": 28.2,
+        "fats": 0.3,
+        "fiber": 0.4,
+        "sodium": 1,
+        "potassium": 35,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "f7fb",
+      "name": "Riso Integrale",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "b9f9",
+      "name": "Rughetta o Rucola",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "5134",
+      "name": "Salmone affumicato",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "511a",
+      "name": "Scamorza",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "d464",
+      "name": "spaghetti",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 150,
+        "protein": 5.3,
+        "carbs": 30.2,
+        "fats": 0.6,
+        "fiber": 1.3,
+        "sodium": 5,
+        "potassium": 90,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "fc51",
+      "name": "spaghetti",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 150,
+        "protein": 5.3,
+        "carbs": 30.2,
+        "fats": 0.6,
+        "fiber": 1.3,
+        "sodium": 5,
+        "potassium": 90,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "3d63",
+      "name": "Tonno affumicato",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "8851",
+      "name": "Tonno in scatola",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "e92a",
+      "name": "Vitello - filetto",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "2427",
+      "name": "yogurt",
+      "brand": null,
+      "category": "Latticini",
+      "per100g": {
+        "kcal": 63,
+        "protein": 5.3,
+        "carbs": 7,
+        "fats": 1.6,
+        "fiber": 0,
+        "sodium": 70,
+        "potassium": 234,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "3b45",
+      "name": "Zucca",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "f108",
+      "name": "zucchine",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 15,
+        "protein": 1.1,
+        "carbs": 2.7,
+        "fats": 0.4,
+        "fiber": 1,
+        "sodium": 3,
+        "potassium": 264,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "c61c",
+      "name": "zucchine",
+      "brand": null,
+      "category": "Generale",
+      "per100g": {
+        "kcal": 15,
+        "protein": 1.1,
+        "carbs": 2.7,
+        "fats": 0.4,
+        "fiber": 1,
+        "sodium": 3,
+        "potassium": 264,
+        "calcium": null,
+        "iron": null,
+        "vitaminC": null,
+        "vitaminD": null
+      },
+      "tags": []
+    },
+    {
+      "id": "e2e9",
+      "name": "aromatizzato",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "8f9e",
+      "name": "20 g Parmareggio Snack - Parmareggio",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "0e9e",
+      "name": "Activia ananas fraise",
+      "brand": "danone, سنطرال دانون",
+      "category": "Latticini",
+      "barcode": "6111032009443",
+      "per100g": {
+        "kcal": 0,
+        "protein": 2.7,
+        "carbs": 9.6,
+        "fats": 1.2,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 105,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "latticini",
+        "danone,-سنطرال-دانون",
+        "grade-a",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "6751",
+      "name": "Melograno et Arancia",
+      "brand": "Nestlé, San Pellegrino",
+      "category": "Generale",
+      "barcode": "8002270266805",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0.1,
+        "carbs": 8.8,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "nestlé,-san-pellegrino",
+        "grade-e",
+        "nova-4"
+      ]
+    },
+    {
+      "id": "6f5a",
+      "name": "5 barrette di cereali, Nocciole e cioccolato fondente",
+      "brand": "Gran Cereale",
+      "category": "Snack",
+      "barcode": "80861638",
+      "per100g": {
+        "kcal": 0,
+        "protein": 9.5,
+        "carbs": 56.5,
+        "fats": 18,
+        "fiber": 8,
+        "sodium": 120,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "snack",
+        "gran-cereale",
+        "grade-c",
+        "nova-4",
+        "high-fiber",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "9b4a",
+      "name": "Barretta ai frutti rossi - Kellogg's",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "4676",
+      "name": "Barretta ai frutti rossi -kellogg's",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "027f",
+      "name": "Biscotti integrali con cereali",
+      "brand": "Misura",
+      "category": "Snack",
+      "barcode": "8002590081850",
+      "per100g": {
+        "kcal": 0,
+        "protein": 8.3,
+        "carbs": 65,
+        "fats": 17,
+        "fiber": 7.7,
+        "sodium": 272,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "snack",
+        "misura",
+        "grade-b",
+        "nova-4",
+        "high-fiber",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "cbf7",
+      "name": "Affettato vegetale gusto bresaola",
+      "brand": "Vemondo",
+      "category": "Generale",
+      "barcode": "4056489722687",
+      "per100g": {
+        "kcal": 0,
+        "protein": 31.7,
+        "carbs": 14.8,
+        "fats": 3.3,
+        "fiber": 3.4,
+        "sodium": 1338,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "vemondo",
+        "grade-unknown",
+        "high-fiber",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "7440",
+      "name": "Broccolo a testa",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "7db3",
+      "name": "Fette biscottate Integrali",
+      "brand": "Mulino Bianco",
+      "category": "Bevande",
+      "barcode": "8076809512077",
+      "per100g": {
+        "kcal": 0,
+        "protein": 13.6,
+        "carbs": 60.2,
+        "fats": 8,
+        "fiber": 12.5,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "mulino-bianco",
+        "grade-unknown",
+        "nova-4",
+        "high-fiber",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "5b70",
+      "name": "Cioccolato extra fondente NERO 85%",
+      "brand": "Nestlé, Perugina",
+      "category": "Snack",
+      "barcode": "8000300379402",
+      "per100g": {
+        "kcal": 0,
+        "protein": 9.7,
+        "carbs": 15.8,
+        "fats": 50.9,
+        "fiber": 15.4,
+        "sodium": 8,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "snack",
+        "nestlé,-perugina",
+        "grade-d",
+        "nova-4",
+        "high-fiber",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "2395",
+      "name": "Fagioli cannellini",
+      "brand": "Valfrutta",
+      "category": "Bevande",
+      "barcode": "8001440009846",
+      "per100g": {
+        "kcal": 0,
+        "protein": 5.5,
+        "carbs": 12.1,
+        "fats": 0.4,
+        "fiber": 6.6,
+        "sodium": 360,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "valfrutta",
+        "grade-b",
+        "nova-3",
+        "high-fiber",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "e79b",
+      "name": "Fagioli cannellini",
+      "brand": "Valfrutta",
+      "category": "Bevande",
+      "barcode": "8001440009846",
+      "per100g": {
+        "kcal": 0,
+        "protein": 5.5,
+        "carbs": 12.1,
+        "fats": 0.4,
+        "fiber": 6.6,
+        "sodium": 360,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "valfrutta",
+        "grade-b",
+        "nova-3",
+        "high-fiber",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "3521",
+      "name": "Prodotto sconosciuto",
+      "brand": "Land - Eurospin",
+      "category": "Latticini",
+      "barcode": "8017596008930",
+      "per100g": {
+        "kcal": 0,
+        "protein": 9.9,
+        "carbs": 2.8,
+        "fats": 4.5,
+        "fiber": 0,
+        "sodium": 334,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "latticini",
+        "land---eurospin",
+        "grade-c",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "e15b",
+      "name": "Pan frisella bianca",
+      "brand": "PAN",
+      "category": "Generale",
+      "barcode": "8007814013518",
+      "per100g": {
+        "kcal": 0,
+        "protein": 10.8,
+        "carbs": 75.2,
+        "fats": 0.7,
+        "fiber": 0,
+        "sodium": 1000,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "pan",
+        "grade-unknown",
+        "high-protein",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "0c1e",
+      "name": "Frittata légère aux poireaux et butternut rôti à la sauce tomate",
+      "brand": "Seazon",
+      "category": "Generale",
+      "barcode": "0745114529329",
+      "per100g": {
+        "kcal": 0,
+        "protein": 9.3,
+        "carbs": 2.8,
+        "fats": 5.8,
+        "fiber": 2,
+        "sodium": 234,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "seazon",
+        "grade-a",
+        "nova-4",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "9496",
+      "name": "Steinofen Pizza Champignon",
+      "brand": "Wagner",
+      "category": "Generale",
+      "barcode": "4009233003693",
+      "per100g": {
+        "kcal": 0,
+        "protein": 8.3,
+        "carbs": 24.4,
+        "fats": 8,
+        "fiber": 2.2,
+        "sodium": 349,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "wagner",
+        "grade-c",
+        "nova-4",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "1048",
+      "name": "Gocce di cioccolato fondente",
+      "brand": "Nestlé, Perugina",
+      "category": "Dolci",
+      "barcode": "8000300308464",
+      "per100g": {
+        "kcal": 0,
+        "protein": 6.8,
+        "carbs": 53.3,
+        "fats": 29.7,
+        "fiber": 8.3,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "dolci",
+        "nestlé,-perugina",
+        "grade-e",
+        "nova-4",
+        "high-fiber"
+      ]
+    },
+    {
+      "id": "092a",
+      "name": "Gocce di cioccolato fondente-Perugina",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "0933",
+      "name": "Latte di vacca parzial. scremato",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "0be6",
+      "name": "Burger vegetali ceci e lenticche",
+      "brand": "Coop, Vivi Verde",
+      "category": "Generale",
+      "barcode": "8001120711724",
+      "per100g": {
+        "kcal": 0,
+        "protein": 9.4,
+        "carbs": 15,
+        "fats": 7.2,
+        "fiber": 6.8,
+        "sodium": 232,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "coop,-vivi-verde",
+        "grade-a",
+        "nova-3",
+        "high-fiber",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "c08e",
+      "name": "Lenticchie al vapore",
+      "brand": "Bonduelle",
+      "category": "Bevande",
+      "barcode": "3083681003963",
+      "per100g": {
+        "kcal": 0,
+        "protein": 8.5,
+        "carbs": 14.2,
+        "fats": 0.7,
+        "fiber": 4.7,
+        "sodium": 200,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "bonduelle",
+        "grade-a",
+        "nova-4",
+        "high-fiber",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "dce6",
+      "name": "Arista al forno a fette",
+      "brand": "LIDL",
+      "category": "Generale",
+      "barcode": "4056489230724",
+      "per100g": {
+        "kcal": 0,
+        "protein": 20,
+        "carbs": 0.6,
+        "fats": 4.4,
+        "fiber": 0,
+        "sodium": 840,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "lidl",
+        "grade-d",
+        "nova-4",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "998e",
+      "name": "Maiale - bistecca",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "515c",
+      "name": "Arista al forno a fette",
+      "brand": "LIDL",
+      "category": "Generale",
+      "barcode": "4056489230724",
+      "per100g": {
+        "kcal": 0,
+        "protein": 20,
+        "carbs": 0.6,
+        "fats": 4.4,
+        "fiber": 0,
+        "sodium": 840,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "lidl",
+        "grade-d",
+        "nova-4",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "a329",
+      "name": "Maiale bistecca",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "7345",
+      "name": "Mandorle dolci o Noci secche",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "4253",
+      "name": "Cuor di Mela Mulino Bianco",
+      "brand": "Mulino Bianco",
+      "category": "Snack",
+      "barcode": "8076809580670",
+      "per100g": {
+        "kcal": 0,
+        "protein": 5.5,
+        "carbs": 66,
+        "fats": 13,
+        "fiber": 2.8,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "snack",
+        "mulino-bianco",
+        "grade-d",
+        "nova-4",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "9857",
+      "name": "Burger vegetale alle melanzane",
+      "brand": "Kioene",
+      "category": "Generale",
+      "barcode": "8027890009151",
+      "per100g": {
+        "kcal": 0,
+        "protein": 12,
+        "carbs": 15,
+        "fats": 12,
+        "fiber": 4.5,
+        "sodium": 480,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "kioene",
+        "grade-a",
+        "nova-4",
+        "high-fiber",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "0639",
+      "name": "Minestone soup",
+      "brand": "Bramwells",
+      "category": "Generale",
+      "barcode": "4088600063546",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0.7,
+        "carbs": 7.8,
+        "fats": 0.8,
+        "fiber": 0.6,
+        "sodium": 209,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bramwells",
+        "grade-b",
+        "nova-4",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "66a1",
+      "name": "Knorr Soupe Minestrone à l'Huile d'Olive 104g 4 Portions",
+      "brand": "Knorr, Unilever",
+      "category": "Generale",
+      "barcode": "3011360007421",
+      "per100g": {
+        "kcal": 0,
+        "protein": 1.2,
+        "carbs": 5.6,
+        "fats": 0.5,
+        "fiber": 0.8,
+        "sodium": 292,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "knorr,-unilever",
+        "grade-c",
+        "nova-4",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "d3d0",
+      "name": "Mix fragole, mirtilli e lamponi",
+      "brand": "Ventura",
+      "category": "Generale",
+      "barcode": "8028618013078",
+      "per100g": {
+        "kcal": 0,
+        "protein": 2,
+        "carbs": 72,
+        "fats": 1.2,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "ventura",
+        "grade-unknown",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "7e2d",
+      "name": "Mozzarella",
+      "brand": "Galbani",
+      "category": "Generale",
+      "barcode": "8000430133035",
+      "per100g": {
+        "kcal": 0,
+        "protein": 17,
+        "carbs": 2,
+        "fats": 18,
+        "fiber": 0,
+        "sodium": 280,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "galbani",
+        "grade-c",
+        "nova-3",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "929e",
+      "name": "Nutella proteica (Foodspring)",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "7778",
+      "name": "Nutella proteica (foodspring)",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "52d1",
+      "name": "Olio extra vergine di oliva - Classico",
+      "brand": "De Cecco",
+      "category": "Generale",
+      "barcode": "8001250220011",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 91.6,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "de-cecco",
+        "grade-b",
+        "nova-2"
+      ]
+    },
+    {
+      "id": "79ca",
+      "name": "Olio extra vergine di oliva - Classico",
+      "brand": "De Cecco",
+      "category": "Generale",
+      "barcode": "8001250220011",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 91.6,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "de-cecco",
+        "grade-b",
+        "nova-2"
+      ]
+    },
+    {
+      "id": "2488",
+      "name": "PICOS 100% integrales",
+      "brand": "Hacendado",
+      "category": "Carboidrati",
+      "barcode": "8480000862150",
+      "per100g": {
+        "kcal": 0,
+        "protein": 14,
+        "carbs": 60.9,
+        "fats": 6.4,
+        "fiber": 11,
+        "sodium": 840,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "carboidrati",
+        "hacendado",
+        "grade-c",
+        "nova-3",
+        "high-fiber",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "55a2",
+      "name": "Parmareggio snack",
+      "brand": "Gran terre",
+      "category": "Generale",
+      "barcode": "80391005",
+      "per100g": {
+        "kcal": 0,
+        "protein": 32,
+        "carbs": 0,
+        "fats": 30,
+        "fiber": 0,
+        "sodium": 640,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "gran-terre",
+        "grade-d",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "3d6a",
+      "name": "Parmigiano Reggiano Revet Fersk Parmesan DOP 60g",
+      "brand": "OLUF LORENTZEN AS",
+      "category": "Generale",
+      "barcode": "8010721001509",
+      "per100g": {
+        "kcal": 0,
+        "protein": 32,
+        "carbs": 0,
+        "fats": 30,
+        "fiber": 0,
+        "sodium": 2,
+        "potassium": 0,
+        "calcium": 1160,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "oluf-lorentzen-as",
+        "grade-c",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "56ce",
+      "name": "Parmigiano Reggiano Revet Fersk Parmesan DOP 60g",
+      "brand": "OLUF LORENTZEN AS",
+      "category": "Generale",
+      "barcode": "8010721001509",
+      "per100g": {
+        "kcal": 0,
+        "protein": 32,
+        "carbs": 0,
+        "fats": 30,
+        "fiber": 0,
+        "sodium": 2,
+        "potassium": 0,
+        "calcium": 1160,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "oluf-lorentzen-as",
+        "grade-c",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "658d",
+      "name": "Pasta di semola integrale Penne rigate",
+      "brand": "Bio Granoro, Granoro",
+      "category": "Generale",
+      "barcode": "8007290335081",
+      "per100g": {
+        "kcal": 0,
+        "protein": 11.5,
+        "carbs": 67,
+        "fats": 2.4,
+        "fiber": 8,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bio-granoro,-granoro",
+        "grade-a",
+        "nova-1",
+        "high-fiber",
+        "high-protein",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "5995",
+      "name": "Pringles Original",
+      "brand": "Pringles",
+      "category": "Snack",
+      "barcode": "5053990127726",
+      "per100g": {
+        "kcal": 0,
+        "protein": 5.9,
+        "carbs": 56,
+        "fats": 31,
+        "fiber": 3.5,
+        "sodium": 440,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "snack",
+        "pringles",
+        "grade-d",
+        "nova-4",
+        "high-fiber"
+      ]
+    },
+    {
+      "id": "8eb8",
+      "name": "Chipsfrisch Peperoni",
+      "brand": "Funny-frisch",
+      "category": "Snack",
+      "barcode": "4003586100306",
+      "per100g": {
+        "kcal": 0,
+        "protein": 5.9,
+        "carbs": 49,
+        "fats": 33,
+        "fiber": 4.4,
+        "sodium": 560,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "snack",
+        "funny-frisch",
+        "grade-d",
+        "nova-4",
+        "high-fiber"
+      ]
+    },
+    {
+      "id": "d89a",
+      "name": "Top quality pesce spada affumicato",
+      "brand": "Riunione Industrie Alimentari",
+      "category": "Generale",
+      "barcode": "8022813000833",
+      "per100g": {
+        "kcal": 0,
+        "protein": 25,
+        "carbs": 2.2,
+        "fats": 13,
+        "fiber": 0,
+        "sodium": 1200,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "riunione-industrie-alimentari",
+        "grade-e",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "de1f",
+      "name": "Pesto Genovese 190g Barilla",
+      "brand": "Barilla",
+      "category": "Generale",
+      "barcode": "8076809513753",
+      "per100g": {
+        "kcal": 0,
+        "protein": 4.7,
+        "carbs": 11,
+        "fats": 47,
+        "fiber": 3,
+        "sodium": 1280,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "barilla",
+        "grade-e",
+        "nova-4"
+      ]
+    },
+    {
+      "id": "170f",
+      "name": "Petto di Pollo al Forno",
+      "brand": "conad",
+      "category": "Generale",
+      "barcode": "8003170035218",
+      "per100g": {
+        "kcal": 0,
+        "protein": 17,
+        "carbs": 3.9,
+        "fats": 1.3,
+        "fiber": 0,
+        "sodium": 800,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "conad",
+        "grade-c",
+        "nova-4",
+        "high-protein",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "b88e",
+      "name": "Petto di pollo panato",
+      "category": "Generale",
+      "barcode": "8056646622092",
+      "per100g": {
+        "kcal": 0,
+        "protein": 18.3,
+        "carbs": 15.9,
+        "fats": 11.6,
+        "fiber": 1,
+        "sodium": 280,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "grade-unknown",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "4bdf",
+      "name": "Legumotti Lenticchie Rosse, Ceci e Piselli",
+      "brand": "Barilla",
+      "category": "Bevande",
+      "barcode": "8076809573023",
+      "per100g": {
+        "kcal": 0,
+        "protein": 24.5,
+        "carbs": 47.9,
+        "fats": 2.3,
+        "fiber": 13,
+        "sodium": 4,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "barilla",
+        "grade-a",
+        "nova-1",
+        "high-fiber",
+        "high-protein",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "a30a",
+      "name": "Salsa pronta pomodoro ciliegino",
+      "brand": "Agromonte",
+      "category": "Bevande",
+      "barcode": "8032817240319",
+      "per100g": {
+        "kcal": 0,
+        "protein": 1.4,
+        "carbs": 6.4,
+        "fats": 0.8,
+        "fiber": 1.2,
+        "sodium": 201,
+        "potassium": 0,
+        "calcium": 20,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "agromonte",
+        "grade-a",
+        "nova-3",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "7755",
+      "name": "famila Mutti Solo Pomodoro Parma Passierte italienische Tomaten 700g 1.99€ 1kg 2.84€",
+      "brand": "MUTTI",
+      "category": "Generale",
+      "barcode": "80042563",
+      "per100g": {
+        "kcal": 0,
+        "protein": 1.6,
+        "carbs": 5.1,
+        "fats": 0.5,
+        "fiber": 0,
+        "sodium": 200,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "mutti",
+        "grade-a",
+        "nova-3",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "2321",
+      "name": "Prosciutto cotto mozzarella fresh tortelloni",
+      "brand": "Rana",
+      "category": "Generale",
+      "barcode": "8001665705042",
+      "per100g": {
+        "kcal": 0,
+        "protein": 12,
+        "carbs": 35.2,
+        "fats": 8.8,
+        "fiber": 5.6,
+        "sodium": 314,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "rana",
+        "grade-c",
+        "nova-4",
+        "high-fiber",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "d0e0",
+      "name": "Prugne denocciolate",
+      "brand": "Eurospin, Eurospin Mister Sibamba",
+      "category": "Bevande",
+      "barcode": "8017596014658",
+      "per100g": {
+        "kcal": 0,
+        "protein": 1.6,
+        "carbs": 57,
+        "fats": 0.3,
+        "fiber": 6.5,
+        "sodium": 8,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "eurospin,-eurospin-mister-sibamba",
+        "grade-c",
+        "nova-3",
+        "high-fiber",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "0b2b",
+      "name": "Ricotta di vacca",
+      "category": "Generale",
+      "barcode": "2663402001747",
+      "per100g": {
+        "kcal": 0,
+        "protein": 7.5,
+        "carbs": 0.9,
+        "fats": 16,
+        "fiber": 0,
+        "sodium": 200,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "grade-unknown",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "3c2f",
+      "name": "Sapori&emozioni basmati integrale",
+      "brand": "Riso Scotti",
+      "category": "Generale",
+      "barcode": "8001860253232",
+      "per100g": {
+        "kcal": 0,
+        "protein": 8.8,
+        "carbs": 72.5,
+        "fats": 2.4,
+        "fiber": 2.5,
+        "sodium": 16,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "riso-scotti",
+        "grade-b",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "db37",
+      "name": "DolcesenzaFrumento, Avena e Riso",
+      "brand": "Misura",
+      "category": "Generale",
+      "barcode": "8002590048402",
+      "per100g": {
+        "kcal": 0,
+        "protein": 12,
+        "carbs": 73,
+        "fats": 3.2,
+        "fiber": 6.5,
+        "sodium": 360,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "misura",
+        "grade-a",
+        "nova-4",
+        "high-fiber",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "5c6e",
+      "name": "Rughetta o Rucola",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "1c7e",
+      "name": "Salmone selvaggio rosso affumicato Sockeye",
+      "brand": "Nautica, OceanSea",
+      "category": "Generale",
+      "barcode": "20332419",
+      "per100g": {
+        "kcal": 0,
+        "protein": 23.4,
+        "carbs": 0,
+        "fats": 2.6,
+        "fiber": 0,
+        "sodium": 806,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "nautica,-oceansea",
+        "grade-d",
+        "high-protein",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "70c6",
+      "name": "Fette biscottate malto d'orzo",
+      "brand": "Barilla",
+      "category": "Bevande",
+      "barcode": "8076809512084",
+      "per100g": {
+        "kcal": 0,
+        "protein": 11,
+        "carbs": 73.2,
+        "fats": 6.2,
+        "fiber": 5.7,
+        "sodium": 320,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "barilla",
+        "grade-c",
+        "nova-4",
+        "high-fiber",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "572e",
+      "name": "Spaghetti Senza Glutine",
+      "brand": "Barilla",
+      "category": "Bevande",
+      "barcode": "8076809545440",
+      "per100g": {
+        "kcal": 0,
+        "protein": 6.5,
+        "carbs": 79,
+        "fats": 1.5,
+        "fiber": 1.1,
+        "sodium": 4,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "barilla",
+        "grade-b",
+        "nova-4",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "c121",
+      "name": "Spaghetti Senza Glutine",
+      "brand": "Barilla",
+      "category": "Bevande",
+      "barcode": "8076809545440",
+      "per100g": {
+        "kcal": 0,
+        "protein": 6.5,
+        "carbs": 79,
+        "fats": 1.5,
+        "fiber": 1.1,
+        "sodium": 4,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "barilla",
+        "grade-b",
+        "nova-4",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "24bf",
+      "name": "Tonno a pinne gialle affumicato",
+      "brand": "Coop",
+      "category": "Generale",
+      "barcode": "8001120882011",
+      "per100g": {
+        "kcal": 0,
+        "protein": 27,
+        "carbs": 0.9,
+        "fats": 1.1,
+        "fiber": 0,
+        "sodium": 1240,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "coop",
+        "grade-d",
+        "high-protein",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "8dc6",
+      "name": "Prodotto sconosciuto",
+      "brand": "Lidl, Nixe",
+      "category": "Pesce",
+      "barcode": "20403034",
+      "per100g": {
+        "kcal": 0,
+        "protein": 25,
+        "carbs": 0,
+        "fats": 8.6,
+        "fiber": 0,
+        "sodium": 393,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "pesce",
+        "lidl,-nixe",
+        "grade-a",
+        "nova-3",
+        "high-protein",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "d35a",
+      "name": "Filetto di Vitello",
+      "category": "Generale",
+      "barcode": "2083800011665",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "grade-unknown"
+      ]
+    },
+    {
+      "id": "2a97",
+      "name": "Yogurt greco 0% aromatizzato",
+      "category": "Generale",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "da-verificare"
+      ]
+    },
+    {
+      "id": "25ce",
+      "name": "Mini burger vegetale con zucca e carote",
+      "brand": "Kioene",
+      "category": "Bevande",
+      "barcode": "8027890010386",
+      "per100g": {
+        "kcal": 0,
+        "protein": 9.8,
+        "carbs": 16,
+        "fats": 14,
+        "fiber": 3.7,
+        "sodium": 520,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "kioene",
+        "grade-c",
+        "nova-4",
+        "high-fiber"
+      ]
+    },
+    {
+      "id": "4043",
+      "name": "Pesto Rustico - Basilico & Zucchine",
+      "brand": "Barilla",
+      "category": "Generale",
+      "barcode": "8076809576598",
+      "per100g": {
+        "kcal": 0,
+        "protein": 1.9,
+        "carbs": 9.9,
+        "fats": 15.5,
+        "fiber": 3.5,
+        "sodium": 660,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "barilla",
+        "grade-c",
+        "nova-4",
+        "high-fiber"
+      ]
+    },
+    {
+      "id": "c328",
+      "name": "Melanzane zucchine peperoni grigliati",
+      "brand": "COOP",
+      "category": "Bevande",
+      "barcode": "8001120914231",
+      "per100g": {
+        "kcal": 0,
+        "protein": 1.6,
+        "carbs": 4.4,
+        "fats": 0.1,
+        "fiber": 3.1,
+        "sodium": 12,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "coop",
+        "grade-a",
+        "nova-1",
+        "high-fiber",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "95f2",
+      "name": "Caramel Macchiato",
+      "brand": "Starbucks",
+      "category": "Bevande",
+      "barcode": "5760466920490",
+      "per100g": {
+        "kcal": 0,
+        "protein": 2.9,
+        "carbs": 9.2,
+        "fats": 1.4,
+        "fiber": 0,
+        "sodium": 36,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      },
+      "tags": [
+        "bevande",
+        "starbucks",
+        "grade-c",
+        "nova-4",
+        "low-fat",
+        "low-sodium"
+      ]
+    },
+    {
+      "id": "cdb5",
+      "name": "Bla Vla",
+      "brand": "woiasf",
+      "category": "Proteine",
+      "barcode": "859949890023",
+      "tags": [
+        "high-protein"
+      ],
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sodium": 0,
+        "potassium": 0,
+        "calcium": 0,
+        "iron": 0,
+        "vitaminC": 0,
+        "vitaminD": 0
+      }
+    }
+  ],
+  "meals": [
+    {
+      "id": "meal-7",
+      "userId": "user-1",
+      "date": "2025-09-05",
+      "type": "breakfast",
+      "items": [
+        {
+          "foodId": "1",
+          "foodName": "Petto di Pollo",
+          "food": {
+            "id": "1",
+            "name": "Petto di Pollo",
+            "brand": "BioFresh",
+            "category": "Proteine",
+            "per100g": {
+              "kcal": 165,
+              "protein": 31,
+              "carbs": 0,
+              "fats": 3.6,
+              "fiber": 0,
+              "sodium": 74,
+              "potassium": 256,
+              "calcium": 15,
+              "iron": 1,
+              "vitaminC": 0,
+              "vitaminD": 0
+            },
+            "barcode": "8001234567890",
+            "tags": [
+              "proteine",
+              "low-carb",
+              "bio"
+            ]
+          },
+          "grams": 150,
+          "calculatedNutrients": {
+            "kcal": 247.5,
+            "protein": 46.5,
+            "carbs": 0,
+            "fats": 5.4,
+            "fiber": 0,
+            "sodium": 111,
+            "potassium": 384,
+            "calcium": 22.5,
+            "iron": 1.5,
+            "vitaminC": 0,
+            "vitaminD": 0
+          }
+        },
+        {
+          "foodId": "2",
+          "foodName": "Riso Integrale",
+          "food": {
+            "id": "2",
+            "name": "Riso Integrale",
+            "brand": "NaturaBio",
+            "category": "Carboidrati",
+            "per100g": {
+              "kcal": 111,
+              "protein": 2.6,
+              "carbs": 23,
+              "fats": 0.9,
+              "fiber": 1.8,
+              "sodium": 5,
+              "potassium": 43,
+              "calcium": 10,
+              "iron": 0.4,
+              "vitaminC": 0,
+              "vitaminD": 0
+            },
+            "barcode": "8001234567891",
+            "tags": [
+              "carboidrati",
+              "integrale",
+              "fibra"
+            ]
+          },
+          "grams": 80,
+          "calculatedNutrients": {
+            "kcal": 88.80000000000001,
+            "protein": 2.08,
+            "carbs": 18.400000000000002,
+            "fats": 0.7200000000000001,
+            "fiber": 1.4400000000000002,
+            "sodium": 4,
+            "potassium": 34.4,
+            "calcium": 8,
+            "iron": 0.32000000000000006,
+            "vitaminC": 0,
+            "vitaminD": 0
+          }
+        }
+      ],
+      "completed": false,
+      "notes": "Colazione equilibrata",
+      "createdAt": "2025-09-05T15:40:12.256Z",
+      "updatedAt": "2025-09-05T15:40:12.256Z",
+      "calories": 336,
+      "protein": 48.6,
+      "carbs": 18.4,
+      "fat": 6.1,
+      "fiber": 1.4,
+      "sodium": 115,
+      "potassium": 418.4,
+      "calcium": 30.5,
+      "iron": 1.8,
+      "vitaminC": 0,
+      "vitaminD": 0,
+      "completedAt": "2025-09-05T15:41:37.555Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-1",
+      "name": "Piano Equilibrato Standard",
+      "description": "Piano alimentare bilanciato per mantenimento peso",
+      "week": {
+        "monday": [
+          {
+            "type": "breakfast",
+            "items": [
+              {
+                "foodId": "5",
+                "grams": 100
+              },
+              {
+                "foodId": "2",
+                "grams": 50
+              }
+            ]
+          },
+          {
+            "type": "lunch",
+            "items": [
+              {
+                "foodId": "1",
+                "grams": 150
+              },
+              {
+                "foodId": "2",
+                "grams": 100
+              },
+              {
+                "foodId": "4",
+                "grams": 100
+              }
+            ]
+          }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [],
+        "friday": [],
+        "saturday": [],
+        "sunday": []
+      },
+      "targets": {
+        "kcal": 2000,
+        "protein": 150,
+        "carbs": 200,
+        "fats": 67,
+        "fiber": 25,
+        "sodium": 2300,
+        "potassium": 3500
+      },
+      "isPublic": true,
+      "createdBy": "admin",
+      "createdAt": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@nutritrack.com",
+      "role": "admin",
+      "name": "Admin User"
+    },
+    {
+      "id": "2",
+      "email": "user@nutritrack.com",
+      "role": "user",
+      "name": "Regular User"
+    }
+  ]
+}
