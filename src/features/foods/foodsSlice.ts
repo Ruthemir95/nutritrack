@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import type { Food, FoodFilters, Pagination } from '../../types';
+import { API_CONFIG } from '../../config/api';
 
 // Stato iniziale
 interface FoodsState {
@@ -39,7 +40,7 @@ export const fetchFoods = createAsyncThunk(
   'foods/fetchFoods',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await fetch('http://localhost:3001/foods');
+      const response = await fetch(`${API_CONFIG.BACKEND.BASE_URL}/foods`);
       if (!response.ok) {
         throw new Error('Errore nel recupero degli alimenti');
       }
@@ -56,7 +57,7 @@ export const fetchFoodById = createAsyncThunk(
   'foods/fetchFoodById',
   async (id: string, { rejectWithValue }) => {
     try {
-      const response = await fetch(`http://localhost:3001/foods/${id}`);
+      const response = await fetch(`${API_CONFIG.BACKEND.BASE_URL}/foods/${id}`);
       if (!response.ok) {
         throw new Error('Alimento non trovato');
       }

@@ -3125,6 +3125,117 @@
       "vitaminC": 0,
       "vitaminD": 0,
       "completedAt": "2025-09-05T15:41:37.555Z"
+    },
+    {
+      "id": "0ed7",
+      "date": "",
+      "type": "breakfast",
+      "notes": "Colazione del 19/09/2025",
+      "items": [
+        {
+          "foodId": "1",
+          "foodName": "Petto di Pollo",
+          "food": {
+            "id": "1",
+            "name": "Petto di Pollo",
+            "brand": "BioFresh",
+            "category": "Proteine",
+            "per100g": {
+              "kcal": 165,
+              "protein": 31,
+              "carbs": 0,
+              "fats": 3.6,
+              "fiber": 0,
+              "sodium": 74,
+              "potassium": 256,
+              "calcium": 15,
+              "iron": 1,
+              "vitaminC": 0,
+              "vitaminD": 0
+            },
+            "barcode": "8001234567890",
+            "tags": [
+              "proteine",
+              "low-carb",
+              "bio"
+            ]
+          },
+          "grams": 100,
+          "calculatedNutrients": {
+            "kcal": 165,
+            "protein": 31,
+            "carbs": 0,
+            "fats": 3.6,
+            "fiber": 0,
+            "sodium": 74,
+            "potassium": 256,
+            "calcium": 15,
+            "iron": 1,
+            "vitaminC": 0,
+            "vitaminD": 0
+          }
+        },
+        {
+          "foodId": "2",
+          "foodName": "Riso Integrale",
+          "food": {
+            "id": "2",
+            "name": "Riso Integrale",
+            "brand": "NaturaBio",
+            "category": "Carboidrati",
+            "per100g": {
+              "kcal": 111,
+              "protein": 2.6,
+              "carbs": 23,
+              "fats": 0.9,
+              "fiber": 1.8,
+              "sodium": 5,
+              "potassium": 43,
+              "calcium": 10,
+              "iron": 0.4,
+              "vitaminC": 0,
+              "vitaminD": 0
+            },
+            "barcode": "8001234567891",
+            "tags": [
+              "carboidrati",
+              "integrale",
+              "fibra"
+            ]
+          },
+          "grams": 100,
+          "calculatedNutrients": {
+            "kcal": 111,
+            "protein": 2.6,
+            "carbs": 23,
+            "fats": 0.9,
+            "fiber": 1.8,
+            "sodium": 5,
+            "potassium": 43,
+            "calcium": 10,
+            "iron": 0.4,
+            "vitaminC": 0,
+            "vitaminD": 0
+          }
+        }
+      ],
+      "calories": 276,
+      "protein": 33.6,
+      "carbs": 23,
+      "fat": 4.5,
+      "creationMode": "catalog",
+      "hasRepetition": false,
+      "userId": "user-1",
+      "completed": false,
+      "createdAt": "2025-09-19T08:17:48.630Z",
+      "updatedAt": "2025-09-19T08:17:48.630Z",
+      "fiber": 1.8,
+      "sodium": 79,
+      "potassium": 299,
+      "calcium": 25,
+      "iron": 1.4,
+      "vitaminC": 0,
+      "vitaminD": 0
     }
   ],
   "plans": [

@@ -281,6 +281,28 @@ const Dashboard: React.FC = () => {
     return labels[type as keyof typeof labels] || type;
   };
 
+  // Calcola i dati filtrati ogni volta che cambia il periodo o i pasti
+  const filteredMeals = React.useMemo(() => {
+    console.log('Recalculating filteredMeals for period:', selectedPeriod);
+    return getFilteredMeals();
+  }, [selectedPeriod, customDate, meals]);
+  
+  const filteredStats = React.useMemo(() => {
+    console.log('Recalculating filteredStats for period:', selectedPeriod);
+    return getFilteredStats();
+  }, [selectedPeriod, customDate, meals]);
+  
+  const chartData = React.useMemo(() => {
+    console.log('Recalculating chartData for period:', selectedPeriod);
+    return getChartData();
+  }, [selectedPeriod, customDate, meals]);
+  
+  const macroDistribution = React.useMemo(() => {
+    console.log('Recalculating macroDistribution for period:', selectedPeriod);
+    return getMacroDistribution();
+  }, [selectedPeriod, customDate, meals]);
+
+  // Gestione degli stati di caricamento e errore DOPO tutti gli hooks
   if ((mealsLoading || foodsLoading) && !loadingTimeout) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -320,27 +342,6 @@ const Dashboard: React.FC = () => {
       </div>
     );
   }
-
-  // Calcola i dati filtrati ogni volta che cambia il periodo o i pasti
-  const filteredMeals = React.useMemo(() => {
-    console.log('Recalculating filteredMeals for period:', selectedPeriod);
-    return getFilteredMeals();
-  }, [selectedPeriod, customDate, meals]);
-  
-  const filteredStats = React.useMemo(() => {
-    console.log('Recalculating filteredStats for period:', selectedPeriod);
-    return getFilteredStats();
-  }, [selectedPeriod, customDate, meals]);
-  
-  const chartData = React.useMemo(() => {
-    console.log('Recalculating chartData for period:', selectedPeriod);
-    return getChartData();
-  }, [selectedPeriod, customDate, meals]);
-  
-  const macroDistribution = React.useMemo(() => {
-    console.log('Recalculating macroDistribution for period:', selectedPeriod);
-    return getMacroDistribution();
-  }, [selectedPeriod, customDate, meals]);
 
   return (
     <div className="p-4 md:p-6 max-w-7xl mx-auto space-y-6">

@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import type { Meal, MealItem, Food } from '../../types';
+import { API_CONFIG } from '../../config/api';
 
 // Stato iniziale
 interface MealsState {
@@ -97,7 +98,7 @@ export const fetchMeals = createAsyncThunk(
   'meals/fetchMeals',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await fetch('http://localhost:3001/meals');
+      const response = await fetch(`${API_CONFIG.BACKEND.BASE_URL}/meals`);
       if (!response.ok) {
         throw new Error('Errore nel recupero dei pasti');
       }
@@ -116,7 +117,7 @@ export const fetchMealsByDate = createAsyncThunk(
     try {
       // Per ora carichiamo tutti i pasti e filtriamo lato client
       // In futuro potremmo implementare un endpoint personalizzato
-      const response = await fetch('http://localhost:3001/meals');
+      const response = await fetch(`${API_CONFIG.BACKEND.BASE_URL}/meals`);
       if (!response.ok) {
         throw new Error('Errore nel recupero dei pasti per la data');
       }
@@ -142,7 +143,7 @@ export const fetchAllMeals = createAsyncThunk(
   'meals/fetchAllMeals',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await fetch('http://localhost:3001/meals');
+      const response = await fetch(`${API_CONFIG.BACKEND.BASE_URL}/meals`);
       if (!response.ok) {
         throw new Error('Errore nel recupero di tutti i pasti');
       }
@@ -159,7 +160,7 @@ export const fetchMealById = createAsyncThunk(
   'meals/fetchMealById',
   async (id: string, { rejectWithValue }) => {
     try {
-      const response = await fetch(`http://localhost:3001/meals/${id}`);
+      const response = await fetch(`${API_CONFIG.BACKEND.BASE_URL}/meals/${id}`);
       if (!response.ok) {
         throw new Error('Errore nel recupero del pasto');
       }
